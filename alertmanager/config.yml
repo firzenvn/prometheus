@@ -3,8 +3,8 @@
 
  receivers:
      - name: 'slack'
-#       slack_configs:
-#           - send_resolved: true
-#             username: '<username>'
-#             channel: '#<channel-name>'
-#             api_url: '<incomming-webhook-url>'
+       slack_configs:
+           - send_resolved: true
+             username: 'prom'
+             channel: '#sys-admins'
+             api_url: 'https://hooks.slack.com/services/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'
